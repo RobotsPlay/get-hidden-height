@@ -25,7 +25,7 @@ getHiddenHeight(el, overrideStyles);
 
 **`overrideStyles`** - (optional) is an object of styles you want to apply to the element during its height calculation. This is useful if you need to constrain properties like `max-height` when the element is visible. By default `max-height` is set to `none` and will calculate the height based on this.
 
-**Return Value** Returns the height of the element as an integer or `null` if the element does not exist.
+**Return Value** Returns the height of the element as an integer or 0 if the element does not exist.
 
 ## Caveats
 
